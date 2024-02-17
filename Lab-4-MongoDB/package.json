@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "Mongodb lab",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nirmohi Samirbhai Patel 20009631",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^3.0.3",
+    "mongodb": "^6.1.0"
+  }
+}

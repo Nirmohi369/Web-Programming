@@ -1,0 +1,45 @@
+<!-- 
+
+A header tag, with an h1 naming your site, with a title for your page
+A footer with your name, student ID, and any other info about yourself you wish to include
+A single ordered list with an id of palindromes. 
+
+Your page will have a form with the following:
+
+
+An input with type of text and with the name palindrome_input and id attribute value of "palindrome_input"
+A buttom to submit the form (make sure this is a button and not an input!)
+
+A button to submit the form
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/public/css/main.css">
+   </head>
+   <body>
+     <main>
+        <header>
+          <h1>Palindrome Check</h1>
+        </header>
+        
+        <form id="check-form">
+            <label for="palindrome_input" class="label">Text</label>
+            <input name="palindrome_input" type="text" placeholder="Enter Text" class="full-width-input" id="palindrome_input">
+            <button type="submit" id="submit-button">Check</button>
+        </form>
+          <p id="error">
+
+          </p>
+          <ol id="palindromes">
+          </ol>
+     </main>
+     <footer id="footer">
+        <p>Nirmohi Samirbhai Patel</p>
+        <p>Student ID - 20009631</p>
+        <p>I'm doing my master's in computer engineering.</p>
+     </footer>
+     <script src="/public/js/main.js"></script>
+   </body>
+ </html>

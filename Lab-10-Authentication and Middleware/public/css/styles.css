@@ -1,0 +1,112 @@
+/* You will create a CSS stylesheet in /public/css/styles.css; this file should have at least 5 rulesets.  You will need to utilize all 5 rulesets on each of the pages (not every page has to use all 5 rulesets each but all 5 rulesets must be utilized by the various pages in your application).  So you can have some rulesets for one page, some for another page but there needs to be at least 5 total rulesets that are used between all the pages.  */
+/*This file should have 10 CSS rulesets */
+  
+html,
+body {
+  font-size: 14pt;
+}
+
+body {
+  background: #b8c89f;
+  font-family: 'Times New Roman', Arial, sans-serif, Georgia;
+}
+
+main {
+  max-width: 80%;
+  margin: auto;
+}
+
+h1,
+h2{
+  color: #0f0d0d;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+img {
+  border: 1px solid #8c6262; 
+  padding: 5px; 
+}
+
+h2.ID {
+  color: #333; 
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-bottom: 10px;
+  font-size: 1.75 rem;
+}
+
+ul {
+  list-style-type: square; /* Specifies the bullet style */
+  margin-left: 20px; /* Adds left margin to the list */
+  padding-left: 20px; 
+  color: #422323; /* Sets the text color */
+}
+
+
+.admin{
+  color: #ff0000;
+  text-decoration: underline;
+}
+.full-width-input {
+  display: block;
+  min-height: 3em;
+  margin: 10px 0;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  font-style: underline ;
+}
+
+button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: 2px solid #0d0e10; 
+  background-color: #7f4b51; 
+  color: white; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d3661; 
+}
+.error{
+  color: #ff0000;
+}
+
+a {
+  color: rgb(57, 91, 129); 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #ff7f50; 
+  text-decoration: underline; 
+}
+
+a:visited {
+  color: #800080; 
+  font-style: italic;
+}
+
+a.search:hover {
+  font-style: normal;
+  font-weight: 700;
+}
+a.search:visited{
+  text-decoration: underline; 
+}
